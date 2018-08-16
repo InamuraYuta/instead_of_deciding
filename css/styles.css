@@ -5,17 +5,24 @@ body{
 
 .container{
   width:1000px;
-  margin:5px auto;
-  text-align: center;
+  margin:10px auto;
+  position: relative;
 }
+
+.top-area{
+    text-align: center;
+}
+
 
 .input-area{
   font-size:0px;
-  margin-top:60px;
-  margin-bottom:20px;　
+  text-align: center;
+  margin-top:20px;
+  margin-bottom:70px;
 }
 
 #do1,#do2{
+  background: #f8f8f8;
   font-size:18px;
   text-align: center;
   padding:10px;
@@ -56,39 +63,39 @@ body{
   box-shadow: 0 4px 0 #D1483E;
 }
 
+/* 結果の表示エリア */
 .result-area{
-  margin-top: 10px;
-  font-size:0px;
+  background: #f8f8f8;
+  width:350px;
   text-align: center;
-  box-sizing: border-box;
-  padding: 5px;
-  width:260px;
-  height:100px;
-  margin-right: 10px;
-  border:solid;
-  border-radius: 10px;
-
+  margin-left: 180px;
+  padding:60px;
+  height:60px;
+  border: solid;
+  border-radius: 5px;
+  position: relative;
 }
 
 
 #result{
-  font-size: 14px;
+ margin:0;
 }
 
 #reset{
   text-decoration: underline;
   cursor: pointer;
-  font-size:14px;
+  position: absolute;
   bottom: 10px;
   right: 10px;
-
 }
 
 #reset.hidden{
   display: none;
 }
 
-.bottom-area{
-  margin-top:80px;
-  margin-bottom:20px;　
+#img{
+  position: absolute;
+  right:120px;
+  top:420px;
+  display: inline-block;
 }
