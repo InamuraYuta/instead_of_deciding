@@ -66,16 +66,15 @@ body{
 /* 結果の表示エリア */
 .result-area{
   background: #f8f8f8;
-  width:350px;
+  width:300px;
   text-align: center;
-  margin-left: 180px;
+  margin-left: 250px;
   padding:60px;
   height:60px;
   border: solid;
   border-radius: 5px;
   position: relative;
 }
-
 
 #result{
  margin:0;
