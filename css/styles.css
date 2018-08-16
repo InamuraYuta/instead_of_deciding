@@ -4,7 +4,7 @@ body{
 }
 
 .container{
-  width:100%;
+  width:1000px;
   margin:10px auto;
   position: relative;
 }
@@ -95,7 +95,7 @@ body{
 
 #img{
   position: absolute;
-  right:180px;
+  right:120px;
   top:420px;
   display: inline-block;
 }
